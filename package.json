@@ -1,0 +1,8 @@
+{
+  "name": "task_aviasales",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "http://github.com/belirofon",
+  "author": "belirofon",
+  "license": "MIT"
+}
