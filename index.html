@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <script defer src="./js/main.js"></script>
+    <script defer src="./js/ticketData.js"></script>
     <title>Aviasales</title>
 </head>
 <body>
@@ -19,23 +20,23 @@
     <div class="main-filter">
         <h3 class="filter-title">Количество пересадок</h3>
         <div class="checkbox-wrapper">
-            <input id="input_1" type="checkbox">
-            <label for="input_1" class="input-label">Все</label>
+            <input class="js-input" id="input_1" type="checkbox">
+            <label for="input_1 " class="input-label">Все</label>
         </div>
         <div class="checkbox-wrapper">
-            <input id="input_2" type="checkbox">
+            <input class="js-input" id="input_2" type="checkbox">
             <label for="input_2" class="input-label">Без пересадок</label>
         </div>
         <div class="checkbox-wrapper">
-            <input id="input_3" type="checkbox">
+            <input class="js-input" id="input_3" type="checkbox">
             <label for="input_3" class="input-label">1 пересадка</label>
         </div>
         <div class="checkbox-wrapper">
-            <input id="input_4" type="checkbox">
+            <input class="js-input" id="input_4" type="checkbox">
             <label for="input_4" class="input-label">2 пересадки</label>
         </div>
         <div class="checkbox-wrapper">
-            <input id="input_5" type="checkbox">
+            <input class="js-input" id="input_5" type="checkbox">
             <label for="input_5" class="input-label">3 пересадки</label>
         </div>
     </div>
@@ -199,7 +200,9 @@
                 </div>
             </div>
         </div>
+        <div class="button-wrapper"><button class="more-ticket">Показать еще 5 билетов</button></div>
     </main>
+    
 </section>
 
 </body>
